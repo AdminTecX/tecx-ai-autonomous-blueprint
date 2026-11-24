@@ -1,6 +1,15 @@
 # tecx-ai-autonomous-blueprint
 
 
+
+How to Use This With Any AI Coder (Zero Manual Coding)
+
+1.  Open the repo in Cursor, Claude Code, OpenAI Codex, or GitHub Copilot Workspace, rename .env.example to .env with your links, and type this single prompt:
+```
+"Read AGENTS.md and ARCHITECTURE.md. Build out all files in storefront/ and mcp-servers/, inject all values from .env, and run npm run verify:all."
+```
+3. The AI agent will automatically generate, wire, and test the entire project for you.
+
 ```
 tecx-ai-autonomous-blueprint/
 ├── AGENTS.md                  # Universal AI Agent Master Instructions (Codex, Claude Code, Jules)
