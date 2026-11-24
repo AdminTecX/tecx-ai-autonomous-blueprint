@@ -1,0 +1,14 @@
+{
+  "name": "tecx-ai-autonomous-blueprint",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Self-building AI-Agent-Ready blueprint for TecX AI",
+  "scripts": {
+    "bootstrap": "node scripts/bootstrap.js",
+    "verify:all": "node scripts/bootstrap.js --verify"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  }
+}
