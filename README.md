@@ -10,20 +10,6 @@ How to Use This With Any AI Coder (Zero Manual Coding)
 ```
 2. The AI agent will automatically generate, wire, and test the entire project for you.
 
-```
-tecx-ai-autonomous-blueprint/
-├── AGENTS.md                  # Universal AI Agent Master Instructions (Codex, Claude Code, Jules)
-├── .cursorrules               # Automatic execution rules for Cursor AI IDE
-├── ARCHITECTURE.md            # Complete system blueprint, schemas & payment flows
-├── .env.example               # Single configuration file for Razorpay, Polar, WhatsApp & Sheets
-├── package.json               # Root workspace & automation scripts
-├── scripts/
-│   └── bootstrap.js           # Self-building script that generates all sub-projects & verifies builds
-├── storefront/                # Auto-generated & maintained Vercel storefront (TecX AI)
-└── mcp-servers/               # Auto-generated & maintained MCP connectors (Commerce, Guard, GST)
-
-```
-
 # TecX AI — Autonomous Blueprint & Agent-Ready Master Repository
 
 > **AI-Agent-Ready Monorepo** for **TecX AI** (`https://vercel.app`) — an automated storefront and Model Context Protocol (MCP) connector platform built for zero-intervention builds, packaging, and deployment.
