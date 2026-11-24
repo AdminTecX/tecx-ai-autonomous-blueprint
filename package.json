@@ -5,6 +5,7 @@
   "description": "Self-building AI-Agent-Ready blueprint for TecX AI",
   "scripts": {
     "bootstrap": "node scripts/bootstrap.js",
+    "sync": "node scripts/sync-env.js"
     "verify:all": "node scripts/bootstrap.js --verify"
   },
   "dependencies": {
