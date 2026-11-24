@@ -8,7 +8,7 @@ How to Use This With Any AI Coder (Zero Manual Coding)
 ```
 "Read AGENTS.md and ARCHITECTURE.md. Build out all files in storefront/ and mcp-servers/, inject all values from .env, and run npm run verify:all."
 ```
-3. The AI agent will automatically generate, wire, and test the entire project for you.
+2. The AI agent will automatically generate, wire, and test the entire project for you.
 
 ```
 tecx-ai-autonomous-blueprint/
