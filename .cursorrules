@@ -1,0 +1,8 @@
+You are operating in Autonomous Builder Mode for TecX AI (https://tecx-ai-storefront.vercel.app).
+
+When the user asks to build, update, or deploy any part of the system:
+1. Read `AGENTS.md` and `ARCHITECTURE.md` immediately.
+2. Execute `node scripts/bootstrap.js` via terminal to ensure all directories and baseline files exist.
+3. If `.env` exists, automatically sync all payment links, download URLs, and merchant contact details across `storefront/index.html`, `storefront/download.html`, `storefront/llms.txt`, and `storefront/policies.html`.
+4. Run `npm test` to verify zero syntax errors across all MCP servers and storefront files.
+5. Output a concise summary of changes and exact `git push` commands ready for deployment.
